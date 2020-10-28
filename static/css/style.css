@@ -1,0 +1,44 @@
+body
+{
+    background-color: gray;
+}
+
+.nadpis
+{
+border-style: dotted;
+width: 20%;
+}
+
+.ja
+{
+float: left;
+}
+.pc
+{
+  float: right;
+}
+.row::after
+{
+content: "";
+clear:both;
+display: table;
+}
+.skoreja
+{
+  border-style: dashed;
+  width: 10%;
+ display: inline-block;
+ background-color: lime;
+}
+.skorepc
+{
+  border-style: dashed;
+  width: 10%;
+  display: inline-block;
+  background-color: lime;
+}
+img
+{
+  width: 65%;
+  border-radius: 8px;
+}
